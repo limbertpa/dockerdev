@@ -11,7 +11,7 @@ spring:
 # for server discovery
 eureka:
   instance:
-    hostname: {HOST_IP}
+    hostname: eureka-registry
   client:
     registerWithEureka: false
     fetchRegistry: false
