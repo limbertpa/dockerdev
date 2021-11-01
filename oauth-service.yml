@@ -75,7 +75,7 @@ eureka:
   client:
     serviceUrl:
       #defaultZone:  http://actuator:password@localhost:8761/eureka/
-      defaultZone:  http://{HOST_IP}:8761/eureka/
+      defaultZone:  http://eureka-registry:8761/eureka/
   instance:
     metadataMap:
       instanceId: ${spring.application.name}:${server.port}
